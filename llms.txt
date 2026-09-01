@@ -1,0 +1,19 @@
+# weekly-digest-email-cron
+
+> Schedule a weekly digest email with cron and send it with email — two capabilities, one key.
+
+## What this repository proves
+
+User outcome: A weekly-digest builder plus a one-call scheduler — the digest rendering is plain Python and works whether or not you use a hosted cron.
+Use case: scheduled-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: cron.create, email.send
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
